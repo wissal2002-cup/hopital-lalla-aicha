@@ -1,0 +1,13 @@
+# Laravel
+chpBackend/vendor/
+chpBackend/node_modules/
+chpBackend/.env
+
+# React
+HopitalLalaAicha/hcpaicha/node_modules/
+HopitalLalaAicha/hcpaicha/dist/
+
+# Général
+node_modules/
+vendor/
+.env
