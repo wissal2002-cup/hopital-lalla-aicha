@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ServiceSection from './pages/ServiceSection';
-import Presentation from './pages/presentation.jsx';
+import Presentation from './pages/Presentation.jsx';
 import Carousel from "./pages/PhotoCarousel.jsx";
 import Contacts from "./pages/Contacts";
 import Administration from "./ServicePages/Administration.jsx";
