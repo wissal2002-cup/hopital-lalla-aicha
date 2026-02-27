@@ -2,28 +2,27 @@
 .carousel-item {
   padding: 10px 0;
 }
-
-/* Adjust card styling 
+Adjust card styling 
 .card {
-  height: 500px; /* Set a fixed height for the cards 
+  height: 500px;  Set a fixed height for the cards 
   display: block;
   width: 100%;
-  margin-bottom: 20px; /* Add some spacing between cards 
-   /* Add some padding at the top if needed 
+  margin-bottom: 20px;  Add some spacing between cards 
+    Add some padding at the top if needed 
 }
 
 .card-img-top {
-  height: 380px; /* Set a fixed height for the image 
-  object-fit: cover; /* Make sure the image doesn't stretch 
+  height: 380px;  Set a fixed height for the image 
+  object-fit: cover;  Make sure the image doesn't stretch 
   width: 100%;
 }
 
 .card-body {
   padding: 15px;
-  height: 150px; /* Set the height of the body 
+  height: 150px;  Set the height of the body 
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Space the content inside the body 
+  justify-content: space-between;  Space the content inside the body 
 }
 
 .card-title {
@@ -43,22 +42,22 @@
   margin-left:90px;
 }
 
-/* For small screens (mobile) 
+ For small screens (mobile) 
 @media (max-width: 768px) {
   .carousel-item {
     padding: 10px 0;
   }
 
   .card {
-    height: 380px; /* Adjust card height for mobile 
+    height: 380px;  Adjust card height for mobile 
   }
 
   .card-img-top {
-    height: 200px; /* Adjust image height for mobile 
+    height: 200px;  Adjust image height for mobile 
   }
 
   .card-body {
-    height: 120px; /* Adjust card body height for mobile 
+    height: 120px;  Adjust card body height for mobile 
   }
 
   .card-title {
@@ -74,4 +73,4 @@
     font-size: 0.9rem;
   }
 }
-/*
+*/
