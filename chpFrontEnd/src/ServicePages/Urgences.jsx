@@ -4,7 +4,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import "../components/Header.css";
 import React, { useEffect, useState,useRef } from 'react';
 import "./ServicePages.css";
-import urgenceHopital from "../assets/urgenceHopital.jpg";
+import urgenceHopital from "../assets/urgencehopital.jpg";
 import urgence_1 from "../assets/urgence_1.png";
 import urgence_2 from "../assets/urgence_2.jpg";
 import urgence_3 from "../assets/urgence_3.png";
