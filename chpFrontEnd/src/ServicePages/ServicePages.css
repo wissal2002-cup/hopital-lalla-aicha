@@ -1,0 +1,72 @@
+
+.service-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #263143; /* Deep blue */
+    text-align: center;    
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  
+.animated-section {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: all 10s ease;
+  }
+  
+  .animated-section.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    border-radius: 16px;
+  }
+  
+  .text-container {
+    transition: opacity 10s ease;
+  }
+  
+  .animated-section-right {
+    opacity: 0;
+    transform: translateX(100px); /* Commence à droite */
+    transition: all 10s ease;
+  }
+  
+  .animated-section-right.visible {
+    opacity: 1;
+    transform: translateX(0); /* Se déplace vers sa position originale */
+  }
+
+ 
+  .nos-services-header {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .nos-services-header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 50, 0.6); /* overlay */
+    z-index: 1;
+  }
+  
+  .nos-services-header h1 {
+    position: relative;
+    z-index: 2;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  

@@ -1,0 +1,43 @@
+
+  
+  .pre-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #bfd2e68c;
+      border-radius: 15px;
+padding: 50px;
+margin-top: 10px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+       top:0;
+      left: 0;
+      width: 1340px;
+    }
+    
+    .pre-text {
+      flex: 1;
+      padding: 20px;
+    }
+    
+    .pre-text h1 {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    
+    .pre-text p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #333;
+    }
+    
+    .pre-image {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+    }
+    
+    .pre-image img {
+      max-width: 100%;
+      height: auto;
+      border-radius:15px;
+    }

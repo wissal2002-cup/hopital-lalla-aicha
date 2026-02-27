@@ -1,0 +1,71 @@
+.cont-mp {
+    
+    background-color: #645c84;
+    color: rgb(249, 249, 249);
+    text-align: center;
+    padding: 80px 20px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .cont-mp h1 {
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+  }
+  
+  .cont-mp p {
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    max-width: 800px;
+  }
+  
+  .card-button {
+    text-decoration: none; /* Pas de soulignement */
+
+    display: inline-block;
+    padding: 20px 40px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .card-button:hover {
+    background: #fff;
+    color: #645c84;
+  }
+  
+  /* Le style du lien bouton est dans .card-button (voir plus haut) */
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .cont-mp {
+      padding: 40px 15px;
+    }
+  
+    .cont-mp h1 {
+      font-size: 1.5rem;
+    }
+  
+    .cont-mp p {
+      font-size: 1rem;
+    }
+  
+    .card-button {
+      font-size: 16px;
+      padding: 12px 20px;
+    }
+  }
+  

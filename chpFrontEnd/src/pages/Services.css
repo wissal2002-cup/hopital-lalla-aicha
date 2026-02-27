@@ -1,0 +1,121 @@
+/*
+.carousel-track {
+    overflow: hidden;
+  }
+  
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: rgba(0, 0, 0, 0.205);
+    color: white;
+    font-size: 2rem;
+    padding: 1px 10px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  .carousel-btn.left {
+    left: 0;
+  }
+  
+  .carousel-btn.right {
+    right: 0;
+  }
+/* Sur écran large (>1200px) 
+@media (min-width: 1200px) {
+    .carousel-track {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .carousel-track > div {
+      width: 30%;
+    }
+  }
+  
+  /* Sur écran moyen (>=992px et <1200px) 
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .carousel-track > div {
+      width: 33%;
+    }
+  }
+  
+  /* Sur tablette ou mobile large (>=768px et <992px) 
+  @media (min-width: 768px) and (max-width: 991px) {
+    .carousel-track > div {
+      width: 45%;
+    }
+  }
+  
+  /* Sur mobile (>=576px et <768px) 
+  @media (max-width: 767px) {
+    .carousel-track {
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  
+    .carousel-track > div {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  
+    .carousel-btn {
+      font-size: 1.5rem;
+    }
+  }
+  
+  /* Sur très petit mobile (<576px) 
+  @media (max-width: 575px) {
+    .carousel-btn {
+      font-size: 1.2rem;
+    }
+  }  
+    
+ */
+ .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #0d6efd;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-indicators button {
+  background-color: #0d6efd;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  height: 400px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 180px;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 10%;
+  }
+}
+  
