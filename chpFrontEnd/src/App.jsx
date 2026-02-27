@@ -9,7 +9,7 @@ import Carousel from "./pages/PhotoCarousel.jsx";
 import Contacts from "./pages/Contacts";
 import Administration from "./ServicePages/Administration.jsx";
 import ServiceAcceuil from "./ServicePages/SAA";
-import HopitalduJour from "./ServicePages/HopitalduJour";
+import HopitalduJour from "./ServicePages/Hopitaldujour";
 import Laboratoire from "./ServicePages/Laboratoire.jsx";
 import Urgences from "./ServicePages/Urgences.jsx";
 import Radiologie from "./ServicePages/Radiologie.jsx";
