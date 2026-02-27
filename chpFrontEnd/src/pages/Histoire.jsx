@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap"; // Make sure to import Row and Col
-import "./histoire.css"; // optional, if you want to style it
+import "./Histoire.css"; // optional, if you want to style it
 import indorhopital_1 from "../assets/indorhopital_1.jpg"
 import interfacebackhpt from"../assets/interfacebackhpt.jpg";
 const Histoire = () => {
