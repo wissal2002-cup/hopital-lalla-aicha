@@ -18,7 +18,7 @@ import Pediatrie from "./ServicePages/Pediatrie.jsx";
 import Traummat from "./ServicePages/Traumat.jsx";
 import Reanimation from "./ServicePages/Reanimation";
 import BlocOperatoire from "./ServicePages/BlocOperatoire";
-import CCHH from "./ServicePages/chirurgieCCHH";
+import CCHH from "./ServicePages/ChirurgieCCHH";
 import CHU from "./ServicePages/Chirurgiethorarique";
 import CHV from "./ServicePages/ChirurgieVasculaire.jsx";
 import Medcine from "./ServicePages/Medcine";
